@@ -3,7 +3,7 @@ import yfinance as fy
 import plotly.graph_objects as go
 import util
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     ticker_symbol = st.sidebar.text_input(
         "Please enter the stock symbol", "MSFT"
         )
